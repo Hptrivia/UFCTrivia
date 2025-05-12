@@ -1,5 +1,6 @@
 import json
 import random
+import os
 import gradio as gr
 import openai
 
