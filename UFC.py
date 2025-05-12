@@ -414,10 +414,10 @@ with gr.Blocks() as demo:
         answer_radio       = gr.Radio(choices=[], label="Choose your answer")
         feedback           = gr.Markdown(visible=False)
         
-         with gr.Row():
-             score_display      = gr.Markdown("Score: 0")
-             difficulty_display = gr.Markdown()
-             timer_display      = gr.Markdown("⏱️ Time: 40")
+        with gr.Row():
+            score_display      = gr.Markdown("Score: 0")
+            difficulty_display = gr.Markdown()
+            timer_display      = gr.Markdown("⏱️ Time: 40")
         
         debug_info         = gr.Textbox(label="Debug Info", interactive=False)
         fighter_hint       = gr.Textbox(label="Fighter's Hint", visible=False, interactive=False)
