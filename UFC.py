@@ -496,7 +496,7 @@ with gr.Blocks() as demo:
             # Call-a-Fighter Lifeline
             call_btn.click(
                 fn=lambda: gr.update(value="📞 Calling fighter...", visible=True),
-                inputs=[], outputs=[wizard_hint]
+                inputs=[], outputs=[fighter_hint]
             ).then(
                 fn=call_wizard,
                 inputs=[q_list, q_index, fifty_used, call_used],
