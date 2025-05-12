@@ -498,7 +498,7 @@ with gr.Blocks() as demo:
                 fn=lambda: gr.update(value="📞 Calling fighter...", visible=True),
                 inputs=[], outputs=[fighter_hint]
             ).then(
-                fn=call_wizard,
+                fn=call_fighter,
                 inputs=[q_list, q_index, fifty_used, call_used],
                 outputs=[fighter_hint, call_btn, call_used]
             )
