@@ -242,11 +242,11 @@ def check_answer(selected, q_index, q_list, score,
             streak_score = 0
 
         msgs = ["✅ Correct!"]
-        if old_50 and streak_score >= 5:
+        if old_50 and streak_score >= 10:
             fifty_used = False
             enable_50 = gr.update(interactive=True)
             msgs.append("🎲 50:50 restored!")
-        if old_call and streak_score >= 15:
+        if old_call and streak_score >= 60:
             call_used = False
             enable_call = gr.update(interactive=True)
             msgs.append("📞 Call-a-Fighter restored!")
@@ -371,8 +371,8 @@ def show_rules():
         "- 🎲 50:50 lifeline\n"
         "- 📞 Call-a-Fighter lifeline\n"
         "- 🔥 Streaks restore lifelines\n"
-        "  - +5 pts → 50:50\n"
-        "  - +10 pts → Call-a-Fighter\n"
+        "  - +10 pts → 50:50\n"
+        "  - +50 pts → Call-a-Fighter\n"
         "  - use 50:50 first → streak restarts\n"
         "- ❌ One wrong answer ends the game\n\n"
         "**Click Start Quiz**"
