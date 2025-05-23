@@ -3,8 +3,8 @@ import uvicorn
 from fastapi import FastAPI
 import gradio as gr
 
-from ufc.py import create_v1
-from v2.py import create_v2  # you’ll create similarly
+from ufc import create_v1
+from v2 import create_v2  # you’ll create similarly
 
 app = FastAPI()
 
