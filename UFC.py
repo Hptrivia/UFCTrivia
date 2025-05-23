@@ -378,7 +378,6 @@ def show_rules():
         gr.update(value=rules, visible=True)  # show rules_box
     )
 
-def create_v1():
     with gr.Blocks() as demo:
             
         # — State variables —
