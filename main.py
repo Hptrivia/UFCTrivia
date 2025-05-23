@@ -11,7 +11,7 @@ app = FastAPI()
 # mount v1 at “/”
 app = gr.mount_gradio_app(app, create_v1(), path="")
 # mount v2 at “/v2”
-app = gr.mount_gradio_app(app, create_v2(), path="/v1")
+app = gr.mount_gradio_app(app, create_v2(), path="/v2")
 
 if __name__ == "__main__":
     uvicorn.run("main:app",
