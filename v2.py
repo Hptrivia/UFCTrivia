@@ -7,7 +7,7 @@ import openai
 # ----------------- AUTH CONFIG -----------------
 
 # ----------------- Load Questions -----------------
-with open("real_qs.txt", "r", encoding="utf-8") as f:
+with open("ufc_trivia.txt", "r", encoding="utf-8") as f:
     all_questions = json.load(f)
 
 # ----------------- Mix & Shuffle Logic -----------------
