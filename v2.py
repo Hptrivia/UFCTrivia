@@ -393,7 +393,7 @@ def show_rules():
         gr.update(visible=True),              # show start_game_btn
         gr.update(value=rules, visible=True)  # show rules_box
     )
-def create_v1():
+def create_v2():
     with gr.Blocks() as demo:
     
         # --- PERSISTENT QUIZ STATE (must be declared BEFORE main_ui) ---
