@@ -4,8 +4,6 @@ import os
 import gradio as gr
 import openai
 
-# ----------------- AUTH CONFIG -----------------
-
 # ----------------- Load Questions -----------------
 with open("ufc_trivia.txt", "r", encoding="utf-8") as f:
     all_questions = json.load(f)
@@ -378,130 +376,129 @@ def show_rules():
         gr.update(value=rules, visible=True)  # show rules_box
     )
 
-    with gr.Blocks() as demo:
-            
-        # — State variables —
-        q_index       = gr.State(0)
-        score         = gr.State(0)
-        q_list        = gr.State([])
-        time_left     = gr.State(20)
-        answered      = gr.State(False)
-        timer_running = gr.State(False)
-        streak_score  = gr.State(0)
-        streak_active = gr.State(False)
-        fifty_used    = gr.State(False)
-        call_used     = gr.State(False)
-    
-         # --- MAIN APP UI (hidden until login) ---
-        with gr.Column(visible=False) as main_ui:
-            # — Intro / Rules screen —
-            intro_image    = gr.Image("fightiq_ logo.png", show_label=False, height=400)
-            show_rules_btn = gr.Button("📜 Show Rules")
-            rules_box      = gr.Markdown(visible=False)
-            start_game_btn = gr.Button("🎮 Start Quiz", visible=False)
-    
-            show_rules_btn.click(
-                fn=show_rules,
-                outputs=[intro_image, start_game_btn, rules_box]
+with gr.Blocks() as demo:
+
+    # — State variables —
+    q_index       = gr.State(0)
+    score         = gr.State(0)
+    q_list        = gr.State([])
+    time_left     = gr.State(20)
+    answered      = gr.State(False)
+    timer_running = gr.State(False)
+    streak_score  = gr.State(0)
+    streak_active = gr.State(False)
+    fifty_used    = gr.State(False)
+    call_used     = gr.State(False)
+
+     # --- MAIN APP UI (hidden until login) ---
+    with gr.Column(visible=False) as main_ui:
+        # — Intro / Rules screen —
+        intro_image    = gr.Image("fightiq_ logo.png", show_label=False, height=400)
+        show_rules_btn = gr.Button("📜 Show Rules")
+        rules_box      = gr.Markdown(visible=False)
+        start_game_btn = gr.Button("🎮 Start Quiz", visible=False)
+
+        show_rules_btn.click(
+            fn=show_rules,
+            outputs=[intro_image, start_game_btn, rules_box]
+        )
+
+        # — Quiz block (hidden until Start Quiz) —
+        with gr.Column(visible=False) as quiz_block:
+            question_text      = gr.Markdown()
+            answer_radio       = gr.Radio(choices=[], label="Choose your answer")
+            feedback           = gr.Markdown(visible=False)
+            with gr.Row():
+                score_display      = gr.Markdown("Score: 0")
+                difficulty_display = gr.Markdown("Difficulty: —")
+                timer_display      = gr.Markdown("⏱️ Time: 40")
+                debug_info         = gr.Textbox(label="Debug Info", interactive=False)
+                fighter_hint        = gr.Textbox(label="Fighter's Hint", visible=False, interactive=False)
+
+            with gr.Row():
+                with gr.Column(scale=1):
+                    gr.Markdown("### Lifelines")
+                    fifty_btn = gr.Button("🎲 50:50")
+                    call_btn  = gr.Button("📞 Call a Fighter")
+                with gr.Column(scale=1):
+                    gr.Markdown("### Actions")
+                    submit_btn   = gr.Button("Submit")
+                    next_btn     = gr.Button("Next Question", visible=False)
+                    restart_btn  = gr.Button("Play Again", visible=False)
+
+            # Timer tick
+            gr.Timer(value=1.0).tick(
+                fn=handle_timeout,
+                inputs=[time_left, timer_running, answered],
+                outputs=[time_left, timer_display, feedback, submit_btn, next_btn, restart_btn, timer_running]
             )
-    
-            # — Quiz block (hidden until Start Quiz) —
-            with gr.Column(visible=False) as quiz_block:
-                question_text      = gr.Markdown()
-                answer_radio       = gr.Radio(choices=[], label="Choose your answer")
-                feedback           = gr.Markdown(visible=False)
-                with gr.Row():
-                    score_display      = gr.Markdown("Score: 0")
-                    difficulty_display = gr.Markdown("Difficulty: —")
-                    timer_display      = gr.Markdown("⏱️ Time: 40")
-                    debug_info         = gr.Textbox(label="Debug Info", interactive=False)
-                    fighter_hint        = gr.Textbox(label="Fighter's Hint", visible=False, interactive=False)
-    
-                with gr.Row():
-                    with gr.Column(scale=1):
-                        gr.Markdown("### Lifelines")
-                        fifty_btn = gr.Button("🎲 50:50")
-                        call_btn  = gr.Button("📞 Call a Fighter")
-                    with gr.Column(scale=1):
-                        gr.Markdown("### Actions")
-                        submit_btn   = gr.Button("Submit")
-                        next_btn     = gr.Button("Next Question", visible=False)
-                        restart_btn  = gr.Button("Play Again", visible=False)
-    
-                # Timer tick
-                gr.Timer(value=1.0).tick(
-                    fn=handle_timeout,
-                    inputs=[time_left, timer_running, answered],
-                    outputs=[time_left, timer_display, feedback, submit_btn, next_btn, restart_btn, timer_running]
-                )
-    
-                # Start & Restart
-                for btn in (start_game_btn, restart_btn):
-                    btn.click(
-                        fn=initialize_if_empty,
-                        inputs=[q_list, q_index, score, streak_score, streak_active, fifty_used, call_used],
-                        outputs=[
-                            question_text, answer_radio, next_btn, restart_btn,
-                            score_display, difficulty_display, feedback,
-                            timer_display, time_left, answered,
-                            submit_btn, timer_running, debug_info,
-                            score, streak_score, streak_active, fifty_used, call_used,
-                            q_list, q_index,
-                            fifty_btn, call_btn, fighter_hint
-                        ]
-                    )\
-                    .then(lambda: gr.update(visible=False), None, intro_image)\
-                    .then(lambda: gr.update(visible=False), None, rules_box)\
-                    .then(lambda: gr.update(visible=False), None, start_game_btn)\
-                    .then(lambda: gr.update(visible=False), None, show_rules_btn)\
-                    .then(lambda: gr.update(visible=True),  None, quiz_block)
-    
-                # Submit Answer
-                submit_btn.click(
-                    fn=check_answer,
-                    inputs=[answer_radio, q_index, q_list, score, answered, streak_score, streak_active, fifty_used, call_used],
-                    outputs=[
-                        answer_radio, feedback, next_btn, restart_btn,
-                        score, answered, timer_running,
-                        streak_score, streak_active, fifty_used, call_used,
-                        submit_btn, fifty_btn, call_btn, debug_info
-                    ]
-                )
-    
-                # 50:50 Lifeline
-                fifty_btn.click(
-                    fn=use_fifty,
-                    inputs=[q_list, q_index, streak_active, call_used],
-                    outputs=[
-                        answer_radio, fifty_btn,
-                        streak_active, fifty_used, call_used,
-                        feedback, debug_info
-                    ]
-                )
-    
-                # Call-a-Fighter Lifeline
-                call_btn.click(
-                    fn=lambda: gr.update(value="📞 Calling fighter...", visible=True),
-                    inputs=[], outputs=[fighter_hint]
-                ).then(
-                    fn=call_fighter,
-                    inputs=[q_list, q_index, fifty_used, call_used],
-                    outputs=[fighter_hint, call_btn, call_used]
-                )
-    
-                # Next Question
-                next_btn.click(
-                    fn=next_question,
+
+            # Start & Restart
+            for btn in (start_game_btn, restart_btn):
+                btn.click(
+                    fn=initialize_if_empty,
                     inputs=[q_list, q_index, score, streak_score, streak_active, fifty_used, call_used],
                     outputs=[
                         question_text, answer_radio, next_btn, restart_btn,
                         score_display, difficulty_display, feedback,
                         timer_display, time_left, answered,
                         submit_btn, timer_running, debug_info,
-                        q_index, call_btn, call_used, fighter_hint
+                        score, streak_score, streak_active, fifty_used, call_used,
+                        q_list, q_index,
+                        fifty_btn, call_btn, fighter_hint
                     ]
-                )
-    
-        # --- LAUNCH ---
-        return demo
-    
+                )\
+                .then(lambda: gr.update(visible=False), None, intro_image)\
+                .then(lambda: gr.update(visible=False), None, rules_box)\
+                .then(lambda: gr.update(visible=False), None, start_game_btn)\
+                .then(lambda: gr.update(visible=False), None, show_rules_btn)\
+                .then(lambda: gr.update(visible=True),  None, quiz_block)
+
+            # Submit Answer
+            submit_btn.click(
+                fn=check_answer,
+                inputs=[answer_radio, q_index, q_list, score, answered, streak_score, streak_active, fifty_used, call_used],
+                outputs=[
+                    answer_radio, feedback, next_btn, restart_btn,
+                    score, answered, timer_running,
+                    streak_score, streak_active, fifty_used, call_used,
+                    submit_btn, fifty_btn, call_btn, debug_info
+                ]
+            )
+
+            # 50:50 Lifeline
+            fifty_btn.click(
+                fn=use_fifty,
+                inputs=[q_list, q_index, streak_active, call_used],
+                outputs=[
+                    answer_radio, fifty_btn,
+                    streak_active, fifty_used, call_used,
+                    feedback, debug_info
+                ]
+            )
+
+            # Call-a-Fighter Lifeline
+            call_btn.click(
+                fn=lambda: gr.update(value="📞 Calling fighter...", visible=True),
+                inputs=[], outputs=[fighter_hint]
+            ).then(
+                fn=call_fighter,
+                inputs=[q_list, q_index, fifty_used, call_used],
+                outputs=[fighter_hint, call_btn, call_used]
+            )
+
+            # Next Question
+            next_btn.click(
+                fn=next_question,
+                inputs=[q_list, q_index, score, streak_score, streak_active, fifty_used, call_used],
+                outputs=[
+                    question_text, answer_radio, next_btn, restart_btn,
+                    score_display, difficulty_display, feedback,
+                    timer_display, time_left, answered,
+                    submit_btn, timer_running, debug_info,
+                    q_index, call_btn, call_used, fighter_hint
+                ]
+            )
+
+    # --- LAUNCH ---
+    demo.launch(server_name="0.0.0.0", server_port=8080)
