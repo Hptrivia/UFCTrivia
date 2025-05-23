@@ -14,7 +14,8 @@ app = gr.mount_gradio_app(app, create_v1(), path="")
 app = gr.mount_gradio_app(app, create_v2(), path="/v2")
 
 if __name__ == "__main__":
-    uvicorn.run("main:app",
-                host="0.0.0.0",
-                port=int(os.environ.get("PORT", 8080)),
-                log_level="info")
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT",8080)),
+        share=False
+    )
