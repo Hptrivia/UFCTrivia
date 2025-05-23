@@ -9,7 +9,7 @@ from v2 import create_v2 # you’ll create similarly
 app = FastAPI()
 
 # mount v1 at “/”
-app = gr.mount_gradio_app(app, create_v1(), path="/")
+app = gr.mount_gradio_app(app, create_v1(), path="")
 # mount v2 at “/v2”
 app = gr.mount_gradio_app(app, create_v2(), path="/v1")
 
