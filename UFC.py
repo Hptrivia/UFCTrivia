@@ -391,7 +391,7 @@ with gr.Blocks() as demo:
     call_used     = gr.State(False)
 
      # --- MAIN APP UI (hidden until login) ---
-    with gr.Column(visible=False) as main_ui:
+    with gr.Column(visible=True) as main_ui:
         # — Intro / Rules screen —
         intro_image    = gr.Image("fightiq_ logo.png", show_label=False, height=400)
         show_rules_btn = gr.Button("📜 Show Rules")
