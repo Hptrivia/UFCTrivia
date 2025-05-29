@@ -7,7 +7,14 @@ import openai
 # ----------------- Load Questions -----------------
 with open("ufc_trivia.txt", "r", encoding="utf-8") as f:
     all_questions = json.load(f)
-
+Manifest = """
+<link rel="manifest" href="/static/manifest.json" />
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/static/pwa-builder.js');
+    }
+</script>
+         """
 # ----------------- Mix & Shuffle Logic -----------------
 def get_randomized_run(n=None):
     if n is None:
@@ -384,7 +391,7 @@ gr.HTML("""
   </script>
 """)
 
-with gr.Blocks() as demo:
+with gr.Blocks(head=Manifest) as demo:
 
     # — State variables —
     q_index       = gr.State(0)
