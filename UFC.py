@@ -375,6 +375,14 @@ def show_rules():
         gr.update(visible=True),              # show start_game_btn
         gr.update(value=rules, visible=True)  # show rules_box
     )
+gr.HTML("""
+  <link rel="manifest" href="/static/manifest.json" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/static/service-worker.js');
+    }
+  </script>
+""")
 
 with gr.Blocks() as demo:
 
