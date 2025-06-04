@@ -1531,6 +1531,216 @@
     "id": "ufc-0109"
   },
   {
+    "id": "ufc-0418",
+    "question": "Who did Kamaru Usman defeat to win the UFC Welterweight Championship?",
+    "options": ["Tyron Woodley", "Colby Covington", "Jorge Masvidal", "Leon Edwards"],
+    "answer": "Tyron Woodley",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ufc-0420",
+    "question": "Who is the current UFC Lightweight Champion as of March 2025?",
+    "options": ["Islam Makhachev", "Charles Oliveira", "Dustin Poirier", "Justin Gaethje"],
+    "answer": "Islam Makhachev",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ufc-0412",
+    "question": "Which female fighter became the first to win in three different UFC weight divisions?",
+    "options": ["Jéssica Andrade", "Amanda Nunes", "Valentina Shevchenko", "Holly Holm"],
+    "answer": "Jéssica Andrade",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0412",
+    "question": "Which UFC fighter became the first to have knockouts in three divisions?",
+    "options": ["Jared Cannonier", "Vitor Belfort", "Conor McGregor", "Luke Rockhold"],
+    "answer": "Jared Cannonier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0408",
+    "question": "Which fighter landed the most significant strikes (232) in a UFC Light Heavyweight title fight?",
+    "options": ["Jamahal Hill", "Jon Jones", "Glover Teixeira", "Jan Błachowicz"],
+    "answer": "Jamahal Hill",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0406",
+    "question": "Which fighter set a new record for the shortest time between three UFC title defenses at 175 days?",
+    "options": ["Alex Pereira", "Israel Adesanya", "Amanda Nunes", "Jon Jones"],
+    "answer": "Alex Pereira",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0403",
+    "question": "Who became the first UFC fighter to win a fight via a double-spinning back fist in 2024?",
+    "options": ["Sharabutdin Magomedov", "Zabit Magomedsharipov", "Yair Rodriguez", "Edson Barboza"],
+    "answer": "Sharabutdin Magomedov",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0412",
+    "question": "Which of these fighters are not in the top 10 list for total fights in the UFC as at May 2025?",
+    "options": ["Diego Sanchez", "Clay Guida", "Demian Maia", "Georges St Pierre"],
+    "answer": "Georges St Pierre",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0412",
+    "question": "Which of these fighters are not in the top 10 list for most wins in the UFC as at May 2025?",
+    "options": ["Diego Sanchez", "Max Holloway", "Donald Cerrone", "Jon Jones"],
+    "answer": "Diego Sanchez",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ufc-0472",
+    "question": "Which of these fighters are not in the top 10 list for most finishes in the UFC as at May 2025?",
+    "options": ["Glover Teixeira", "Frank Mir", "Joe Lauzon", "Jon Jones"],
+    "answer": "Jon Jones",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0482",
+    "question": "Which of these fighters are not in the top 10 list for longest win streaks in the UFC as at May 2025?",
+    "options": ["Merab Dvalishvili", "Georges St-Pierre", "Amanda Nunes", "Jose Aldo"],
+    "answer": "Jon Jones",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0492",
+    "question": "Which of these fighters are not in the top 5 list for most title fight wins in the UFC as at May 2025?",
+    "options": ["Amanda Nunes", "Anderson Silva", "Georges St-Pierre", "Isreal Adesanya"],
+    "answer": "Isreal Adesanya",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0457",
+    "question": "Which fighter has the longest total fight time in the UFC as at May 2025?",
+    "options": ["Rafeal Dos Anjos", "Max Holloway", "Frankie Edgar", "Jim Miller"],
+    "answer": "Rafeal Dos Anjos",
+    "difficulty": "medium"
+  },
+  {
+    "id": "ufc-657",
+    "question": "Which fighter has the 2nd shortest average fight time in the UFC as at May 2025?",
+    "options": ["Drew McFedries", "Tom Aspinall", "Terrence McKinney", "Manuel Torres"],
+    "answer": "Drew McFedries",
+    "difficulty": "expert"
+  },
+  {
+    "id": "ufc-0457",
+    "question": "Which fighter has the shortest average fight time in the UFC as at May 2025?",
+    "options": ["Drew McFedries", "Ronda Rousey", "Terrence McKinney", "Manuel Torres"],
+    "answer": "Tom Aspinall",
+    "difficulty": "expert"
+  },
+  {
+    "id": "ufc-0857",
+    "question": "Which fighter has the longest average fight time in the UFC as at May 2025?",
+    "options": ["Valentina Shevchenko", "Joanna Jedrzejczyk", "Demetrius Johnson", "Dominick Cruz"],
+    "answer": "Valentina Shevchenko",
+    "difficulty": "expert"
+  },
+  {
+    "id": "ufc-0957",
+    "question": "Which fighter has the 2nd longest average fight time in the UFC as at May 2025?",
+    "options": ["Valentina Shevchenko", "Joanna Jedrzejczyk", "Demetrius Johnson", "Dominick Cruz"],
+    "answer": "Joanna Jedrzejczyk",
+    "difficulty": "expert"
+  },
+  {
+    "id": "ufc-0652",
+    "question": "Who has the most Title fight wins in the UFC as at May 2025?",
+    "options": ["Jon Jones", "Anderson Silva", "Demetrius Johnson", "Jose Aldo"],
+    "answer": "Jon Jones",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0752",
+    "question": "Who has the most knockdowns landed in the UFC as at May 2025?",
+    "options": ["Donald Cerrone", "Anderson Silva", "Derrick Lewis", "Edson Barboza"],
+    "answer": "Donald Cerrone",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0402",
+    "question": "Which fighter set the record for most significant ground strikes (136) in a single UFC fight in 2024?",
+    "options": ["Punahele Soriano", "Khamzat Chimaev", "Colby Covington", "Islam Makhachev"],
+    "answer": "Punahele Soriano",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0652",
+    "question": "Which fighter has the most strikes landed per minute in the UFC as at May 2025?",
+    "options": ["Tom Aspinall", "Joshua Van", "Esteban Ribovics", "Jose Also"],
+    "answer": "Joshua Van",
+    "difficulty": "expert"
+  },
+  {
+    "id": "ufc-0452",
+    "question": "Which UFC fighter has the most decision wins as at May 2024?",
+    "options": ["Brad Tavares", "Neil Magny", "Belal Muhammed", "Frankie Edgar"],
+    "answer": "Brad Tavares",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0642",
+    "question": "Which UFC fighter has the highest take down defense percentage as at May 2024?",
+    "options": ["Kamaru Usman", "Julio Arce", "Jon Jones", "Jose Aldo"],
+    "answer": "Julio Arce",
+    "difficulty": "expert"
+  },
+  {
+    "id": "ufc-0642",
+    "question": "Which UFC fighter has the highest take down accuracy as at May 2024?",
+    "options": ["Khamzat Chimaev", "Jon Jones ", "Nordine Taleb", "Jonathan Goulet"],
+    "answer": "Nordine Taleb",
+    "difficulty": "expert"
+  },
+  {
+    "id": "ufc-0542",
+    "question": "Remember the Name...?",
+    "options": ["Brad Tavares", "Neil Magny", "Belal Muhammed", "Frankie Edgar"],
+    "answer": "Belal Muhammed",
+    "difficulty": "easy"
+  },
+  {
+    "id": "ufc-0404",
+    "question": "Which fighter set the record for longest winless streak in UFC history by 2024?",
+    "options": ["Tony Ferguson", "BJ Penn", "Sam Alvey", "Diego Sanchez"],
+    "answer": "Sam Alvey",
+    "difficulty": "expert"
+  },
+  {
+    "id": "ufc-0404",
+    "question": "Which fighter set the record for most consecutive losses (8) in UFC history by 2024?",
+    "options": ["Tony Ferguson", "BJ Penn", "Sam Alvey", "Diego Sanchez"],
+    "answer": "Tony Ferguson",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0407",
+    "question": "Who became the first UFC fighter to lose a fight via disqualification due to biting in 2024?",
+    "options": ["Igor Severino", "Rousimar Palhares", "Paul Daley", "Gilbert Yvel"],
+    "answer": "Igor Severino",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0410",
+    "question": "Which fighter set the record for most leg kicks landed (95) in a single UFC bout in 2023?",
+    "options": ["Karol Rosa", "José Aldo", "Edson Barboza", "Justin Gaethje"],
+    "answer": "Karol Rosa",
+    "difficulty": "hard"
+  },
+  {
+    "id": "ufc-0409",
+    "question": "Who became the first Georgian UFC champion in 2024?",
+    "options": ["Ilia Topuria", "Merab Dvalishvili", "Giga Chikadze", "Levan Makashvili"],
+    "answer": "Ilia Topuria",
+    "difficulty": "medium"
+  },
+  {
     "question": "Which female fighter ended Ronda Rousey’s unbeaten streak?",
     "options": ["Holly Holm", "Amanda Nunes", "Miesha Tate", "Cat Zingano"],
     "answer": "Holly Holm",
