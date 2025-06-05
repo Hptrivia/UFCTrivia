@@ -1127,7 +1127,7 @@
     "options": ["Sheamus", "Randy Orton", "Big Show", "Kane"],
     "answer": "Sheamus",
     "difficulty": "hard"
-  }
+  },
   {
     "id": "wwe-2007-2012-0006",
     "question": "Who is the first and only 2 time Money in the Bank Ladder Match winner?",
