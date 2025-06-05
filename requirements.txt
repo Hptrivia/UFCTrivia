@@ -1,5 +1,5 @@
-fastapi
-gradio[oauth,mcp]==5.29.0
+
+ gradio[oauth,mcp]==5.29.0
  uvicorn>=0.14.0
  spaces
 openai==0.28.1
