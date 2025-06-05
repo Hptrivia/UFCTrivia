@@ -1,0 +1,1416 @@
+[
+  {
+    "id": "wwe-ae-001",
+    "question": "What was The Rock´s signature catchphrase?",
+    "options": [
+      "Can you smell what The Rock is cooking?",
+      "You can't see me",
+      "Give me a Hell Yeah!",
+      "Bang! Bang!"
+    ],
+    "answer": "Can you smell what The Rock is cooking?",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-002",
+    "question": "Which wrestler was nicknamed 'The Texas Rattlesnake'?",
+    "options": [
+      "Shawn Michaels",
+      "Stone Cold Steve Austin",
+      "Kane",
+      "Edge"
+    ],
+    "answer": "Stone Cold Steve Austin",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-003",
+    "question": "Who managed The Brothers of Destruction during the early Attitude Era?",
+    "options": [
+      "Paul Heyman",
+      "Stephanie McMahon",
+      "Paul Bearer",
+      "Vince McMahon"
+    ],
+    "answer": "Paul Bearer",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-004",
+    "question": "Which wrestler is known for drinking beer in the ring?",
+    "options": [
+      "Triple H",
+      "The Rock",
+      "Stone Cold Steve Austin",
+      "Chris Jericho"
+    ],
+    "answer": "Stone Cold Steve Austin",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-005",
+    "question": "Who was the leader of D-Generation X?",
+    "options": [
+      "Triple H",
+      "Shawn Michaels",
+      "Road Dogg",
+      "Billy Gunn"
+    ],
+    "answer": "Triple H",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-006",
+    "question": "What color was Kane´s original mask and outfit?",
+    "options": [
+      "Red and black",
+      "Blue and white",
+      "Gold and black",
+      "Green and purple"
+    ],
+    "answer": "Red and black",
+    "difficulty": "easy"
+  },
+  {
+    "id": "attitude-0006",
+    "question": "Which wrestler was the original leader of the popular stable, The Nation of Domination, during the Attitude Era?",
+    "options": ["The Rock", "Mark Henry", "Farooq", "D'Lo Brown"],
+    "answer": "Farooq",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0007",
+    "question": "Which championship belt was introduced during the Attitude Era, featuring a skull in the middle?",
+    "options": ["The European Championship", "The Intercontinental Championship", "The Hardcore Championship", "The Hardcore 24/7 Championship"],
+    "answer": "The Hardcore Championship",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0008",
+    "question": "Who was the first-ever WWF Hardcore Champion during the Attitude Era?",
+    "options": ["Mankind", "Al Snow", "Big Boss Man", "Raven"],
+    "answer": "Mankind",
+    "difficulty": "hard"
+  },
+  {
+    "id": "attitude-0009",
+    "question": "What was the main event of Over The Edge 1999, which also saw Owen Hart tragically die?",
+    "options": ["Stone Cold vs The Rock", "HHH vs Rock", "Undertaker vs Stone Cold", "Kane vs Mark Henry"],
+    "answer": "Undertaker vs Stone Cold",
+    "difficulty": "hard"
+  },
+  {
+    "id": "attitude-0010",
+    "question": "What year did WWF become WWE, considered by some to be the end of the Attitude Era?",
+    "options": ["2001", "2002", "2003", "2004"],
+    "answer": "2002",
+    "difficulty": "expert"
+  },
+  {
+    "id": "attitude-0011",
+    "question": "What was Vince McMahon's corporate faction called during the Attitude Era?",
+    "options": ["The Corporation", "The Alliance", "The Authority", "Corporate Ministry"],
+    "answer": "The Corporation",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0012",
+    "question": "Which WWE Diva was known as 'Sable' during the Attitude Era?",
+    "options": ["Debra", "Chyna", "Terri Runnels", "Rena Mero"],
+    "answer": "Rena Mero",
+    "difficulty": "expert"
+  },
+  {
+    "id": "attitude-0004",
+    "question": "Which wrestler portrayed the eccentric and bizarre character 'Goldust' during the Attitude Era?",
+    "options": ["Terri Runnels", "Cody Rhodes", "Dustin Rhodes", "Dusty Rhodes"],
+    "answer": "Dustin Rhodes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0014",
+    "question": "Who was Mankind’s opponent in the infamous Hell in a Cell match at King of the Ring 1998?",
+    "options": ["The Undertaker", "Kane", "Stone Cold Steve Austin", "Triple H"],
+    "answer": "The Undertaker",
+    "difficulty": "easy"
+  },
+  {
+    "id": "attitude-0015",
+    "question": "What was the ring name of the wrestler Glenn Jacobs during the Attitude Era?",
+    "options": ["Big Red Machine", "Kane", "Isaac Yankem", "The Devil’s Favorite Demon"],
+    "answer": "Kane",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0017",
+    "question": "Who did Stone Cold Steve Austin defeat to win his first WWF Championship at WrestleMania XIV?",
+    "options": ["The Rock", "Shawn Michaels", "Triple H", "Bret Hart"],
+    "answer": "Shawn Michaels",
+    "difficulty": "hard"
+  },
+  {
+    "id": "attitude-0018",
+    "question": "Which pay-per-view featured the first ever TLC match?",
+    "options": ["WrestleMania 2000", "Summerslam 2000", "Royal Rumble 2000", "Backlash 2000"],
+    "answer": "Summerslam 2000",
+    "difficulty": "hard"
+  },
+  {
+    "id": "attitude-0019",
+    "question": "Which tag team consisted of Gangrel, Edge, and Christian during the Attitude Era?",
+    "options": ["The Brood", "The Ministry of Darkness", "The New Breed", "The Flock"],
+    "answer": "The Brood",
+    "difficulty": "hard"
+  },
+  {
+    "id": "attitude-0020",
+    "question": "What was the name of the weekly WWF show that featured more adult content and aired late at night?",
+    "options": ["Sunday Night Heat", "Velocity", "Shotgun Saturday Night", "WWF After Dark"],
+    "answer": "Shotgun Saturday Night",
+    "difficulty": "expert"
+  },
+  {
+    "id": "attitude-0005",
+    "question": "Who did Steve Austin face in the iconic 'Austin 3:16' promo at the 1996 King of the Ring?",
+    "options": ["Bret Hart", "The Undertaker", "Jake 'The Snake' Roberts", "Mankind"],
+    "answer": "Jake 'The Snake' Roberts",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-008",
+    "question": "Who was The Undertaker´s brother in storyline?",
+    "options": [
+      "Triple H",
+      "Mankind",
+      "Kane",
+      "The Big Show"
+    ],
+    "answer": "Kane",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-009",
+    "question": "Which wrestler called himself 'Y2J'?",
+    "options": [
+      "Edge",
+      "Kurt Angle",
+      "Chris Jericho",
+      "X-Pac"
+    ],
+    "answer": "Chris Jericho",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-010",
+    "question": "What did the 'DX' gesture symbolize?",
+    "options": [
+      "Respect",
+      "Friendship",
+      "Rebellion",
+      "Unity"
+    ],
+    "answer": "Rebellion",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-011",
+    "question": "Who held the most WWF Championships during the Attitude Era?",
+    "options": [
+      "The Rock",
+      "Triple H",
+      "Stone Cold Steve Austin",
+      "Mick Foley"
+    ],
+    "answer": "Stone Cold Steve Austin",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-013",
+    "question": "What was Mankind´s earlier finishing move?",
+    "options": [
+      "Socko",
+      "Rock Bottom",
+      "Mandible Claw",
+      "Chokeslam"
+    ],
+    "answer": "Mandible Claw",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-015",
+    "question": "Who won the main event of WrestleMania XV?",
+    "options": [
+      "The Rock",
+      "Triple H",
+      "Stone Cold Steve Austin",
+      "Mankind"
+    ],
+    "answer": "Stone Cold Steve Austin",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-017",
+    "question": "Which female wrestler was known as 'The Ninth Wonder of the World'?",
+    "options": [
+      "Sable",
+      "Chyna",
+      "Lita",
+      "Trish Stratus"
+    ],
+    "answer": "Chyna",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-019",
+    "question": "What faction did The Godfather belong to during his early career?",
+    "options": [
+      "The Corporation",
+      "The Nation of Domination",
+      "The Ministry of Darkness",
+      "Right to Censor"
+    ],
+    "answer": "The Nation of Domination",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-025",
+    "question": "What was Triple H´s finisher?",
+    "options": [
+      "Sweet Chin Music",
+      "Pedigree",
+      "Rock Bottom",
+      "Tombstone"
+    ],
+    "answer": "Pedigree",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-026",
+    "question": "Which wrestler had a sock puppet named 'Mr. Socko'?",
+    "options": [
+      "Mankind",
+      "Goldust",
+      "Val Venis",
+      "Al Snow"
+    ],
+    "answer": "Mankind",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-037",
+    "question": "Which wrestler wore a towel and portrayed a porn star gimmick?",
+    "options": [
+      "Al Snow",
+      "Goldust",
+      "Val Venis",
+      "Raven"
+    ],
+    "answer": "Val Venis",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-ae-039",
+    "question": "Which Pay-Per-View featured the debut of the Inferno Match?",
+    "options": [
+      "Unforgiven 1998",
+      "No Way Out 1999",
+      "WrestleMania XIV",
+      "Backlash 1999"
+    ],
+    "answer": "Unforgiven 1998",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-041",
+    "question": "Who won King of the Ring tournament in 2001?",
+    "options": [
+      "Kurt Angle",
+      "Chris Jericho",
+      "Booker T",
+      "Edge"
+    ],
+    "answer": "Edge",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-045",
+    "question": "Which team won the first official TLC match at SummerSlam 2000?",
+    "options": [
+      "The Dudley Boyz",
+      "Edge & Christian",
+      "The Hardy Boyz",
+      "APA"
+    ],
+    "answer": "Edge & Christian",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-046",
+    "question": "What alter ego did Undertaker use during his biker gimmick?",
+    "options": [
+      "The Deadman",
+      "The American Badass",
+      "Big Evil",
+      "Lord of Darkness"
+    ],
+    "answer": "The American Badass",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-047",
+    "question": "Who managed The Hardy Boyz early in their career?",
+    "options": [
+      "Terri Runnels",
+      "Lita",
+      "Stephanie McMahon",
+      "Micheal Hayes"
+    ],
+    "answer": "Micheal Hayes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-048",
+    "question": "Who won the 1999 King of the Ring tournament?",
+    "options": [
+      "Billy Gunn",
+      "Ken Shamrock",
+      "Edge",
+      "X-Pac"
+    ],
+    "answer": "Billy Gunn",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-ae-049",
+    "question": "What was the name of the tag team of Road Dogg and Billy Gunn?",
+    "options": [
+      "DX Express",
+      "The New Age Outlaws",
+      "Too Cool",
+      "The Acolytes"
+    ],
+    "answer": "The New Age Outlaws",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-054",
+    "question": "Which tag team was part of the Brood stable?",
+    "options": [
+      "Edge and Christian",
+      "The Hardy Boyz",
+      "The Dudley Boyz",
+      "Kaientai"
+    ],
+    "answer": "Edge and Christian",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-060",
+    "question": "Which title was unified with the WWF Championship in late 2001?",
+    "options": [
+      "European Title",
+      "WCW Championship",
+      "Hardcore Title",
+      "Intercontinental Title"
+    ],
+    "answer": "WCW Championship",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-061",
+    "question": "What stable included Shane McMahon, Booker T, and Rob Van Dam?",
+    "options": [
+      "The Corporation",
+      "The Alliance",
+      "The Radicalz",
+      "Team Angle"
+    ],
+    "answer": "The Alliance",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0025",
+    "question": "Which wrestler had an alter ego known as 'Dude Love'?",
+    "options": ["Mankind", "Raven", "Billy Gunn", "Steve Blackman"],
+    "answer": "Mankind",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0028",
+    "question": "What was the name of Val Venis’s signature finishing move?",
+    "options": ["Money Shot", "Heat Seeker", "Adult Drop", "Pleasure Dive"],
+    "answer": "Money Shot",
+    "difficulty": "hard"
+  },
+  {
+    "id": "attitude-0029",
+    "question": "Who managed The Hardy Boyz during the early Attitude Era?",
+    "options": ["Terri", "Trish Stratus", "Lita", "Stephanie McMahon"],
+    "answer": "Terri",
+    "difficulty": "hard"
+  },
+  {
+    "id": "attitude-0044",
+    "question": "Who portrayed the character 'Mr. Ass' in the Attitude Era?",
+    "options": ["Road Dogg", "Billy Gunn", "Val Venis", "X-Pac"],
+    "answer": "Billy Gunn",
+    "difficulty": "easy"
+  },
+  {
+    "id": "attitude-0052",
+    "question": "Which stable included Test, Albert, and Trish Stratus?",
+    "options": ["The Corporation", "T&A", "Right to Censor", "The Brood"],
+    "answer": "T&A",
+    "difficulty": "easy"
+  },
+  {
+    "id": "attitude-0056",
+    "question": "Which female wrestler won the Intercontinental Championship during the Attitude Era?",
+    "options": ["Chyna", "Lita", "Trish Stratus", "Jacqueline"],
+    "answer": "Chyna",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0057",
+    "question": "Which wrestler had a gimmick based on a martial arts expert and used nunchucks?",
+    "options": ["Steve Blackman", "Ken Shamrock", "Val Venis", "Scotty 2 Hotty"],
+    "answer": "Steve Blackman",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-063",
+    "question": "What was the name of the acolytes tag team after the Ministry dissolved?",
+    "options": [
+      "APA",
+      "The Bruisers",
+      "Hardcore Nation",
+      "Outlaws"
+    ],
+    "answer": "APA",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-064",
+    "question": "Who did Kurt Angle defeat to win his first WWF title?",
+    "options": [
+      "Triple H",
+      "The Rock",
+      "Stone Cold",
+      "Big Show"
+    ],
+    "answer": "The Rock",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-067",
+    "question": "What wrestler had a finishing move called the 'Worm'?",
+    "options": [
+      "Scotty 2 Hotty",
+      "Grandmaster Sexay",
+      "Rikishi",
+      "Too Cool"
+    ],
+    "answer": "Scotty 2 Hotty",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-068",
+    "question": "Which female superstar competed in the men´s 1999 Royal Rumble?",
+    "options": [
+      "Lita",
+      "Trish Stratus",
+      "Chyna",
+      "Jacqueline"
+    ],
+    "answer": "Chyna",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-070",
+    "question": "Which wrestler had a brief gimmick as a vampire?",
+    "options": [
+      "Edge",
+      "Christian",
+      "Gangrel",
+      "Test"
+    ],
+    "answer": "Gangrel",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-075",
+    "question": "Which tag team famously battled over Terri Runnels\u2019 managerial services?",
+    "options": [
+      "Too Cool vs The Brood",
+      "Hardy Boyz vs Edge & Christian",
+      "Hardy Boyz vs Dudleys",
+      "T&A vs RTC"
+    ],
+    "answer": "Hardy Boyz vs Edge & Christian",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-ae-077",
+    "question": "Which wrestler eliminated the most people in the 2001 Royal Rumble?",
+    "options": [
+      "Kane",
+      "Stone Cold",
+      "The Rock",
+      "Big Show"
+    ],
+    "answer": "Kane",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-079",
+    "question": "Which tag team won the WWF Tag Team Championship the most during the Attitude Era?",
+    "options": [
+      "Hardy Boyz",
+      "Edge & Christian",
+      "Dudley Boyz",
+      "APA"
+    ],
+    "answer": "Edge & Christian",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-087",
+    "question": "What was the original identity of the wrestler who played 'Gillberg'?",
+    "options": [
+      "Duane Gill",
+      "Al Snow",
+      "Steve Blackman",
+      "Barry Horowitz"
+    ],
+    "answer": "Duane Gill",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-ae-088",
+    "question": "Which wrestler held the Hardcore Title the most times?",
+    "options": [
+      "Crash Holly",
+      "Mankind",
+      "Hardcore Holly",
+      "Raven"
+    ],
+    "answer": "Raven",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-089",
+    "question": "Who was the last person to pin Stone Cold before his 2003 retirement?",
+    "options": [
+      "The Rock",
+      "Triple H",
+      "Brock Lesnar",
+      "Kurt Angle"
+    ],
+    "answer": "The Rock",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-091",
+    "question": "Who was the first member of The Radicalz to win a WWF title?",
+    "options": [
+      "Eddie Guerrero",
+      "Chris Benoit",
+      "Perry Saturn",
+      "Dean Malenko"
+    ],
+    "answer": "Dean Malenko",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-094",
+    "question": "Which faction did Midian belong to?",
+    "options": [
+      "Right to Censor",
+      "The Radicalz",
+      "The Ministry of Darkness",
+      "The Corporation"
+    ],
+    "answer": "The Ministry of Darkness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-099",
+    "question": "Who feuded with Ken Shamrock over his storyline sister Ryan?",
+    "options": [
+      "Val Venis",
+      "Goldust",
+      "Steve Blackman",
+      "Billy Gunn"
+    ],
+    "answer": "Val Venis",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-100",
+    "question": "Which wrestler´s entrance video included a heartbeat monitor sound flatlining?",
+    "options": [
+      "Test",
+      "Tazz",
+      "Vince McMahon",
+      "Hardcore Holly"
+    ],
+    "answer": "Tazz",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-101",
+    "question": "Who did Al Snow form a tag team called 'Head Cheese' with?",
+    "options": [
+      "Steve Blackman",
+      "Crash Holly",
+      "Hardcore Holly",
+      "Scotty 2 Hotty"
+    ],
+    "answer": "Steve Blackman",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-ae-103",
+    "question": "Which woman aligned with The Corporation in 1999?",
+    "options": [
+      "Lita",
+      "Debra",
+      "Tori",
+      "Sable"
+    ],
+    "answer": "Sable",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-104",
+    "question": "Who eliminated Stone Cold from the 1999 Royal Rumble?",
+    "options": [
+      "Vince McMahon",
+      "The Rock",
+      "Big Boss Man",
+      "Kane"
+    ],
+    "answer": "Vince McMahon",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-110",
+    "question": "Which wrestler was part of The Oddities?",
+    "options": [
+      "Kurrgan",
+      "Gangrel",
+      "Crash Holly",
+      "Hardcore Holly"
+    ],
+    "answer": "Kurrgan",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-112",
+    "question": "What infamous object did Al Snow carry to the ring?",
+    "options": [
+      "Guitar",
+      "Crowbar",
+      "Mannequin Head",
+      "Plywood"
+    ],
+    "answer": "Mannequin Head",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-122",
+    "question": "Who was Shane McMahon´s bodyguard during his feud with X-Pac?",
+    "options": [
+      "Test",
+      "Albert",
+      "Bull Buchanan",
+      "Pete Gas"
+    ],
+    "answer": "Test",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2005-2020-0009",
+    "question": "What was the name of the faction formed by Randy Orton, Batista, Triple H, and Ric Flair?",
+    "options": ["The Authority", "Legacy", "Evolution", "The Corporation"],
+    "answer": "Evolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2005-2020-0007",
+    "question": "Which wrestler broke The Undertaker's WrestleMania undefeated streak?",
+    "options": ["Roman Reigns", "Triple H", "Edge", "Brock Lesnar"],
+    "answer": "Brock Lesnar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2005-2020-0004",
+    "question": "Who was the first-ever Universal Champion in WWE?",
+    "options": ["Roman Reigns", "Seth Rollins", "Finn Bálor", "Brock Lesnar"],
+    "answer": "Finn Bálor",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2005-2020-0005",
+    "question": "Which superstar cashed in the Money in the Bank contract at WrestleMania 31?",
+    "options": ["Dean Ambrose", "Edge", "Seth Rollins", "CM Punk"],
+    "answer": "Seth Rollins",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2005-2020-0001",
+    "question": "Who defeated John Cena at SummerSlam 2014 to win the WWE World Heavyweight Championship?",
+    "options": ["Randy Orton", "Seth Rollins", "Roman Reigns", "Brock Lesnar"],
+    "answer": "Brock Lesnar",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2005-2020-0012",
+    "question": "Who won the 2006 Money in the Bank ladder match?",
+    "options": ["Edge", "RVD", "CM Punk", "Mr. Kennedy"],
+    "answer": "RVD",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2005-2020-0024",
+    "question": "Which team held the RAW Tag Team Titles for 483 days from 2015 to 2016?",
+    "options": ["The Usos", "The New Day", "The Revival", "The Bar"],
+    "answer": "The New Day",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2005-2020-0028",
+    "question": "What name did Dean Ambrose go by when he returned to wrestling outside WWE?",
+    "options": ["Moxley", "Jon Moxley", "Dean Mox", "Johnny Blood"],
+    "answer": "Jon Moxley",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0083",
+    "question": "Which wrestler’s finishing move was the 'Scissors Kick'?",
+    "options": ["X-Pac", "Booker T", "The Godfather", "Val Venis"],
+    "answer": "Booker T",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-2005-2010-0006",
+    "question": "Which tag team did Paul London team with to win the WWE Tag Team Titles in 2005?",
+    "options": ["Billy Kidman", "Brian Kendrick", "Chavo Guerrero", "Jamie Noble"],
+    "answer": "Brian Kendrick",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2005-2010-0007",
+    "question": "Who cashed in the Money in the Bank contract on The Undertaker in 2007?",
+    "options": ["Edge", "Randy Orton", "CM Punk", "The Miz"],
+    "answer": "Edge",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2005-2010-0008",
+    "question": "Which pay-per-view did Chris Benoit win the World Heavyweight Title in 2004?",
+    "options": ["No Way Out", "WrestleMania XX", "Backlash", "Judgment Day"],
+    "answer": "WrestleMania XX",
+    "difficulty": "medium"
+  },
+  {
+    "id": "attitude-0096",
+    "question": "Who became the first Undisputed WWF Champion at Vengeance 2001?",
+    "options": ["Kurt Angle", "The Rock", "Chris Jericho", "Stone Cold"],
+    "answer": "Chris Jericho",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2005-2010-0013",
+    "question": "Who won the Royal Rumble match in 2006?",
+    "options": ["Randy Orton", "Rey Mysterio", "Triple H", "Shawn Michaels"],
+    "answer": "Rey Mysterio",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2005-2011-0013",
+    "question": "Who won the Royal Rumble match in 2007?",
+    "options": ["Randy Orton", "The Undertaker", "Triple H", "Shawn Michaels"],
+    "answer": "The Undertaker",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2005-2011-0713",
+    "question": "Who won the Royal Rumble match in 2025?",
+    "options": ["Jey Uso", "John Cena", "Cody Rhodes", "Gunther"],
+    "answer": "Jey Uso",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2025-2011-0713",
+    "question": "Who won the Royal Rumble match in 2025?",
+    "options": ["Jey Uso", "John Cena", "Cody Rhodes", "Gunther"],
+    "answer": "Cody Rhodes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2005-2011-0713",
+    "question": "Which of these fighters have not won the Royal Rumble for a second consecutive year?",
+    "options": ["Shawn Micheals", "The Rock", "Cody Rhodes", "Hulk Hogan"],
+    "answer": "The Rock",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2015-2010-0113",
+    "question": "Who won the Royal Rumble match in 2009?",
+    "options": ["Randy Orton", "John Cena", "Triple H", "Shawn Michaels"],
+    "answer": "Randy Orton",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2000-2005-0005",
+    "question": "Who did Eddie Guerrero defeat to win the WWE Championship at No Way Out 2004?",
+    "options": ["Kurt Angle", "Brock Lesnar", "John Cena", "Big Show"],
+    "answer": "Brock Lesnar",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-2015-2020-0001",
+    "question": "Who won the 2015 Money in the Bank ladder match?",
+    "options": ["Roman Reigns", "Sheamus", "Dean Ambrose", "Bray Wyatt"],
+    "answer": "Sheamus",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0002",
+    "question": "Which WWE Superstar made their main roster debut by defeating John Cena at Elimination Chamber 2015?",
+    "options": ["Kevin Owens", "Sami Zayn", "Finn Bálor", "Baron Corbin"],
+    "answer": "Kevin Owens",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0003",
+    "question": "At WrestleMania 31, who cashed in the Money in the Bank contract during the main event?",
+    "options": ["Dean Ambrose", "Seth Rollins", "Roman Reigns", "Dolph Ziggler"],
+    "answer": "Seth Rollins",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0005",
+    "question": "Which WWE Superstar won the 2016 Royal Rumble match?",
+    "options": ["Roman Reigns", "Triple H", "Dean Ambrose", "Brock Lesnar"],
+    "answer": "Triple H",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0006",
+    "question": "Who did AJ Styles defeat to win his first WWE Championship at Backlash 2016?",
+    "options": ["John Cena", "Dean Ambrose", "Randy Orton", "Bray Wyatt"],
+    "answer": "Dean Ambrose",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0007",
+    "question": "At WrestleMania 33, who did Brock Lesnar defeat to win the Universal Championship?",
+    "options": ["Roman Reigns", "Samoa Joe", "Goldberg", "Braun Strowman"],
+    "answer": "Goldberg",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0010",
+    "question": "Who did Drew McIntyre defeat to win his first WWE Championship at WrestleMania 36?",
+    "options": ["Brock Lesnar", "Randy Orton", "Seth Rollins", "Roman Reigns"],
+    "answer": "Brock Lesnar",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0012",
+    "question": "Who won the 2019 King of the Ring tournament?",
+    "options": ["Baron Corbin", "Chad Gable", "Elias", "Samoa Joe"],
+    "answer": "Baron Corbin",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0014",
+    "question": "Which WWE Superstar won the 2017 Money in the Bank ladder match?",
+    "options": ["Shinsuke Nakamura", "Baron Corbin", "AJ Styles", "Kevin Owens"],
+    "answer": "Baron Corbin",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0017",
+    "question": "Who won the 2020 Men's Royal Rumble match?",
+    "options": ["Roman Reigns", "Drew McIntyre", "Brock Lesnar", "Edge"],
+    "answer": "Drew McIntyre",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0021",
+    "question": "Which WWE Superstar was known as 'The Architect' during this period?",
+    "options": ["Roman Reigns", "Dean Ambrose", "Seth Rollins", "Kevin Owens"],
+    "answer": "Seth Rollins",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2020-0022",
+    "question": "Who did Roman Reigns defeat to win his first WWE World Heavyweight Championship?",
+    "options": ["Dean Ambrose", "Triple H", "Brock Lesnar", "Seth Rollins"],
+    "answer": "Dean Ambrose",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2020-0023",
+    "question": "Which female Superstar made her WWE debut at the 2018 Royal Rumble after the match ended?",
+    "options": ["Ronda Rousey", "Asuka", "Shayna Baszler", "Charlotte Flair"],
+    "answer": "Ronda Rousey",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2020-0029",
+    "question": "Who was AJ Styles' opponent at WrestleMania 36 in the Boneyard Match?",
+    "options": ["Undertaker", "Kane", "Edge", "Randy Orton"],
+    "answer": "Undertaker",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2020-0025",
+    "question": "Who was the host of WrestleMania 35?",
+    "options": ["The Miz", "Alexa Bliss", "John Cena", "Hulk Hogan"],
+    "answer": "Alexa Bliss",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2020-0024",
+    "question": "Who won the WWE Championship at WrestleMania 32?",
+    "options": ["Triple H", "Roman Reigns", "Seth Rollins", "Brock Lesnar"],
+    "answer": "Roman Reigns",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2020-0033",
+    "question": "Who did Kevin Owens team with to face Shane McMahon and Daniel Bryan at WrestleMania 34?",
+    "options": ["Sami Zayn", "Chris Jericho", "Jinder Mahal", "Cesaro"],
+    "answer": "Sami Zayn",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2020-0034",
+    "question": "Which former Shield member did Seth Rollins defeat at Money in the Bank 2016?",
+    "options": ["Dean Ambrose", "Roman Reigns", "Triple H", "John Cena"],
+    "answer": "Roman Reigns",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2020-0036",
+    "question": "Which Superstar returned at the 2020 Royal Rumble after a nine-year retirement?",
+    "options": ["Edge", "CM Punk", "Daniel Bryan", "John Cena"],
+    "answer": "Edge",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2015-2021-0017",
+    "question": "What year did Roman Reigns win the Royal Rumble match?",
+    "options": ["2013", "2014", "2015", "2016"],
+    "answer": "2015",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0058",
+    "question": "Who did Shayna Baszler lose the NXT Women's Championship to in 2019?",
+    "options": ["Rhea Ripley", "Io Shirai", "Bianca Belair", "Toni Storm"],
+    "answer": "Rhea Ripley",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2020-2025-0001",
+    "question": "Who ended Roman Reigns' 1,316-day Universal Championship reign at WrestleMania 40?",
+    "options": ["Cody Rhodes", "Seth Rollins", "Drew McIntyre", "Brock Lesnar"],
+    "answer": "Cody Rhodes",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2020-2025-0003",
+    "question": "At WrestleMania 40, who cashed in the Money in the Bank contract to win the World Heavyweight Championship?",
+    "options": ["Damian Priest", "Austin Theory", "Seth Rollins", "LA Knight"],
+    "answer": "Damian Priest",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2020-2025-0004",
+    "question": "Which WWE Superstar set the record for the longest time spent in a single Women's Royal Rumble match in 2025?",
+    "options": ["Roxanne Perez", "Charlotte Flair", "Bianca Belair", "Rhea Ripley"],
+    "answer": "Roxanne Perez",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0041",
+    "question": "Who won the 2018 Men's Royal Rumble match?",
+    "options": ["Roman Reigns", "Shinsuke Nakamura", "John Cena", "Finn Bálor"],
+    "answer": "Shinsuke Nakamura",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2020-2025-0011",
+    "question": "Who did Bayley defeat to win the WWE Women's Championship at WrestleMania 40?",
+    "options": ["Iyo Sky", "Becky Lynch", "Rhea Ripley", "Charlotte Flair"],
+    "answer": "Iyo Sky",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2020-2025-0015",
+    "question": "Who did Damian Priest defeat to win the World Heavyweight Championship at WrestleMania 40?",
+    "options": ["Drew McIntyre", "Seth Rollins", "Finn Bálor", "Bobby Lashley"],
+    "answer": "Drew McIntyre",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2020-2025-0035",
+    "question": "Who became the first woman to win two Royal Rumble matches by 2025?",
+    "options": ["Charlotte Flair", "Becky Lynch", "Asuka", "Bianca Belair"],
+    "answer": "Charlotte Flair",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2007-2012-0003",
+    "question": "Who retired Ric Flair at WrestleMania XXIV?",
+    "options": ["Triple H", "John Cena", "Shawn Michaels", "Randy Orton"],
+    "answer": "Shawn Michaels",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2007-2012-0006",
+    "question": "Who won the 2008 Money in the Bank Ladder Match?",
+    "options": ["CM Punk", "John Morrison", "Chris Jericho", "Shelton Benjamin"],
+    "answer": "CM Punk",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2007-2012-0007",
+    "question": "Which WWE Diva was known as 'The Glamazon'?",
+    "options": ["Beth Phoenix", "Trish Stratus", "Michelle McCool", "Melina"],
+    "answer": "Beth Phoenix",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2007-2012-0008",
+    "question": "Who defeated John Cena at SummerSlam 2008 to become WWE Champion?",
+    "options": ["Randy Orton", "Edge", "Batista", "Triple H"],
+    "answer": "Batista",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2007-2012-0009",
+    "question": "What was CM Punk's finishing move called?",
+    "options": ["Go to Sleep", "Attitude Adjustment", "RKO", "Codebreaker"],
+    "answer": "Go to Sleep",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2007-2012-0010",
+    "question": "Who won the 2011 Royal Rumble match?",
+    "options": ["Alberto Del Rio", "Edge", "Randy Orton", "John Cena"],
+    "answer": "Alberto Del Rio",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2007-2012-0018",
+    "question": "Who won the main event of WrestleMania 24?",
+    "options": ["Edge", "Undertaker", "John Cena", "Triple H"],
+    "answer": "Undertaker",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2007-2012-0019",
+    "question": "Who cashed in the Money in the Bank contract on Jeff Hardy at Extreme Rules 2009?",
+    "options": ["Edge", "CM Punk", "Kane", "Randy Orton"],
+    "answer": "CM Punk",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2007-2012-0020",
+    "question": "Who defeated Daniel Bryan in 18 seconds at WrestleMania 28?",
+    "options": ["Sheamus", "Randy Orton", "Big Show", "Kane"],
+    "answer": "Sheamus",
+    "difficulty": "hard"
+  }
+  {
+    "id": "wwe-2007-2012-0006",
+    "question": "Who is the first and only 2 time Money in the Bank Ladder Match winner?",
+    "options": ["CM Punk", "Edge", "Chris Jericho", "RVD"],
+    "answer": "CM Punk",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2007-2012-0004",
+    "question": "Who won the WWE Championship in the main event of WrestleMania 28?",
+    "options": ["The Rock", "John Cena", "CM Punk", "Triple H"],
+    "answer": "CM Punk",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2020-2025-0023",
+    "question": "At WrestleMania 41, who did Jey Uso defeat to win the World Heavyweight Championship?",
+    "options": ["Gunther", "Seth Rollins", "Roman Reigns", "CM Punk"],
+    "answer": "Gunther",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2020-2025-0014",
+    "question": "Which WWE Superstar set the record for most eliminations in a single Women's Royal Rumble match in 2025?",
+    "options": ["Nia Jax", "Rhea Ripley", "Bianca Belair", "Shayna Baszler"],
+    "answer": "Nia Jax",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2020-2025-0005",
+    "question": "Who won the 2025 Women's Royal Rumble match?",
+    "options": ["Charlotte Flair", "Rhea Ripley", "Becky Lynch", "Bianca Belair"],
+    "answer": "Charlotte Flair",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0051",
+    "question": "Which PPV featured the 'Greatest Wrestling Match Ever' between Edge and Randy Orton?",
+    "options": ["Backlash 2020", "WrestleMania 36", "Extreme Rules 2020", "SummerSlam 2020"],
+    "answer": "Backlash 2020",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2015-2020-0013",
+    "question": "At WrestleMania 34, who did Ronda Rousey team with in her debut match?",
+    "options": ["The Rock", "Kurt Angle", "John Cena", "Triple H"],
+    "answer": "Kurt Angle",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2000-2005-0095",
+    "question": "Who faced Big Show in a sumo match at WrestleMania 21?",
+    "options": ["Yokozuna", "A-Train", "Akebono", "Kane"],
+    "answer": "Akebono",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2000-2005-0093",
+    "question": "What year was the Hardcore Championship officially retired?",
+    "options": ["2002", "2003", "2004", "2005"],
+    "answer": "2002",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2000-2005-0091",
+    "question": "Who portrayed the Eugene character in WWE?",
+    "options": ["Nick Dinsmore", "Steve Lombardi", "Matt Bloom", "Simon Dean"],
+    "answer": "Nick Dinsmore",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2000-2005-0092",
+    "question": "Which WWE pay-per-view in 2005 featured the first-ever Punjabi Prison match?",
+    "options": ["Great American Bash", "No Mercy", "Judgment Day", "Backlash"],
+    "answer": "Great American Bash",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2000-2005-0088",
+    "question": "Which diva was a 2005 Playboy cover model and participated in WrestleMania 21?",
+    "options": ["Sable", "Candice Michelle", "Christy Hemme", "Torrie Wilson"],
+    "answer": "Christy Hemme",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2000-2005-0063",
+    "question": "Who ended Kurt Angle’s undefeated streak in WWE?",
+    "options": ["Tazz", "The Rock", "Triple H", "Chris Jericho"],
+    "answer": "Tazz",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2000-2005-0064",
+    "question": "Which star betrayed the Alliance at Survivor Series 2001?",
+    "options": ["Shane McMahon", "Kurt Angle", "Stone Cold", "Booker T"],
+    "answer": "Kurt Angle",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0052",
+    "question": "Who did Undertaker face in a Biker Chain Match at No Mercy 2003?",
+    "options": ["Brock Lesnar", "Kurt Angle", "Big Show", "John Cena"],
+    "answer": "Brock Lesnar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0043",
+    "question": "Who portrayed the General Manager of Raw in 2003?",
+    "options": ["Paul Heyman", "Eric Bischoff", "Vince McMahon", "Jonathan Coachman"],
+    "answer": "Eric Bischoff",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0040",
+    "question": "Which superstar formed an alliance with The Hurricane in 2003?",
+    "options": ["Rosey", "Shannon Moore", "Matt Hardy", "Billy Kidman"],
+    "answer": "Rosey",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0046",
+    "question": "Who eliminated The Undertaker in the 2002 Royal Rumble match?",
+    "options": ["Maven", "Triple H", "Steve Austin", "Booker T"],
+    "answer": "Maven",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2000-2005-0045",
+    "question": "Which superstar was the first to pin Brock Lesnar in a WWE singles match?",
+    "options": ["Big Show", "Kurt Angle", "Eddie Guerrero", "The Rock"],
+    "answer": "Big Show",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2000-2005-0032",
+    "question": "Who was the first WWE superstar drafted to SmackDown in the 2002 brand extension?",
+    "options": ["The Rock", "Undertaker", "Kurt Angle", "Chris Benoit"],
+    "answer": "The Rock",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-2000-2005-0015",
+    "question": "What was the name of the stable formed by Eddie Guerrero and Chavo Guerrero 2003?",
+    "options": ["The Guerreros", "Latino Heat", "Los Guerreros", "Viva Guerreros"],
+    "answer": "Los Guerreros",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-2000-2005-0010",
+    "question": "Which wrestler won the inaugural Money in the Bank Ladder Match at WrestleMania 21?",
+    "options": ["Edge", "Chris Jericho", "Kane", "Shelton Benjamin"],
+    "answer": "Edge",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-2000-2005-0006",
+    "question": "Which wrestler won the 2004 Royal Rumble match entering at number one?",
+    "options": ["Shawn Michaels", "Chris Benoit", "Triple H", "Rey Mysterio"],
+    "answer": "Chris Benoit",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0031",
+    "question": "Which team won the WWE Tag Team Championship at No Mercy 2002?",
+    "options": ["Los Guerreros", "Kurt Angle & Chris Benoit", "The Dudley Boyz", "Edge & Rey Mysterio"],
+    "answer": "Kurt Angle & Chris Benoit",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0024",
+    "question": "Who did Goldberg defeat in his first WWE match at Backlash 2003?",
+    "options": ["Triple H", "The Rock", "Chris Jericho", "Randy Orton"],
+    "answer": "The Rock",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0033",
+    "question": "Who did Triple H defeat to unify the Intercontinental and World Heavyweight Titles in 2002?",
+    "options": ["Kane", "RVD", "Shawn Michaels", "Booker T"],
+    "answer": "Kane",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0053",
+    "question": "Which title did Chris Benoit win at WrestleMania 2000?",
+    "options": ["European Championship", "Intercontinental Championship", "Hardcore Championship", "WWE Championship"],
+    "answer": "Intercontinental Championship",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2000-2005-0051",
+    "question": "Which tag team was known for the '3-Minute Warning' gimmick?",
+    "options": ["La Résistance", "The Basham Brothers", "Rosey & Jamal", "The Highlanders"],
+    "answer": "Rosey & Jamal",
+    "difficulty": "medium"
+  },
+  {
+    "id": "wwe-2000-2005-0090",
+    "question": "Which team won the WWE Tag Team Championship at WrestleMania XX?",
+    "options": ["The Dudley Boyz", "Booker T & RVD", "Rikishi & Scotty 2 Hotty", "Shelton Benjamin & Charlie Haas"],
+    "answer": "Rikishi & Scotty 2 Hotty",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2000-2005-0097",
+    "question": "Which wrestler did Trish Stratus defeat to win her final Women's Title before 2006 retirement?",
+    "options": ["Lita", "Mickie James", "Victoria", "Molly Holly"],
+    "answer": "Lita",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2000-2005-0098",
+    "question": "Who did JBL face at Judgment Day 2004?",
+    "options": ["Eddie Guerrero", "Booker T", "The Undertaker", "John Cena"],
+    "answer": "Eddie Guerrero",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2215-2010-0013",
+    "question": "Who won the Royal Rumble match in 2010?",
+    "options": ["Randy Orton", "John Cena", "Triple H", "Edge"],
+    "answer": "Edge",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2015-2010-0044",
+    "question": "Who won the Royal Rumble match in 2005?",
+    "options": ["Randy Orton", "John Cena", "Triple H", "Batista"],
+    "answer": "Batista",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2015-2010-0013",
+    "question": "Who won the Royal Rumble match in 2008?",
+    "options": ["Randy Orton", "John Cena", "Triple H", "Shawn Michaels"],
+    "answer": "John Cena",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-2005-2020-0030",
+    "question": "Who did Kofi Kingston defeat at WrestleMania 35 to win the WWE Championship?",
+    "options": ["Brock Lesnar", "AJ Styles", "Daniel Bryan", "Samoa Joe"],
+    "answer": "Daniel Bryan",
+    "difficulty": "easy"
+  },
+  {
+    "id": "attitude-0099",
+    "question": "Which WWE personality was abducted by The Undertaker in a crucifixion angle?",
+    "options": ["Stephanie McMahon", "Linda McMahon", "Stone Cold", "Shawn Michaels"],
+    "answer": "Stephanie McMahon",
+    "difficulty": "hard"
+  },
+  {
+    "id": "attitude-0100",
+    "question": "What was the original air date of the first episode of 'SmackDown'?",
+    "options": ["April 29, 1999", "August 26, 1999", "March 30, 1999", "September 9, 1999"],
+    "answer": "August 26, 1999",
+    "difficulty": "expert"
+  },
+  {
+    "id": "wwe-2005-2020-0017",
+    "question": "What was the name of the controversial 2010 storyline group led by Wade Barrett?",
+    "options": ["The Shield", "Legacy", "The Nexus", "Retribution"],
+    "answer": "The Nexus",
+    "difficulty": "easy"
+  },
+  {
+    "id": "wwe-2005-2020-0002",
+    "question": "Which female superstar won the first-ever Women's Royal Rumble in 2018?",
+    "options": ["Becky Lynch", "Charlotte Flair", "Asuka", "Ronda Rousey"],
+    "answer": "Asuka",
+    "difficulty": "hard"
+  },
+  {
+    "id": "wwe-ae-149",
+    "question": "Which wrestler had an alternate personality named 'Stinky Johnson' in pre-tapes?",
+    "options": [
+      "Mankind",
+      "Al Snow",
+      "Road Dogg",
+      "Goldust"
+    ],
+    "answer": "Al Snow",
+    "difficulty": "expert"
+  }
+]
