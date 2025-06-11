@@ -654,15 +654,6 @@ with gr.Blocks() as demo:
         friends_btn   = gr.Button("Moving to New Page")
         gr.Markdown("## We are moving to a new page..In a couple of hours all our trivia apps will now be available under https://trivia-5pja.onrender.com/")
 
-    # ─── Theme Menu (rules + nav buttons) ─────────────────────────
-    with gr.Column(visible=False) as theme_menu:
-        theme_heading = gr.Markdown("", visible=True)
-        rules_md      = gr.Markdown(
-            "**🥊 Moving to new URL** "
-            "We are moving to a new page..In a couple of hours all our trivia apps will now be available under https://trivia-5pja.onrender.com/"\n\n
-            "Thanks for your understanding\n\n",
-            visible=True
-        )
     with gr.Column(visible=False) as shop_page:
         gr.Markdown(r"""
         ## 🛍️ Shop
@@ -802,8 +793,8 @@ with gr.Blocks() as demo:
 
     # Theme buttons → Theme Menu
     friends_btn.click(
-        fn=lambda: ("Friends", gr.update(visible=False), gr.update(visible=True), gr.update(value="## Friends Trivia")),  
-        outputs=[selected_theme, theme_page, theme_menu, theme_heading]
+        fn=lambda: ("Friends", gr.update(visible=False)),  
+        outputs=[selected_theme, theme_page]
     )
    
 
