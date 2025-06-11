@@ -659,7 +659,7 @@ with gr.Blocks() as demo:
         theme_heading = gr.Markdown("", visible=True)
         rules_md      = gr.Markdown(
             "**🥊 Moving to new URL** "
-            "We are moving to a new page..In a couple of hours all our trivia apps will now be available under https://trivia-5pja.onrender.com/"\n\n"
+            "We are moving to a new page..In a couple of hours all our trivia apps will now be available under https://trivia-5pja.onrender.com/"\n\n
             "Thanks for your understanding\n\n",
             visible=True
         )
