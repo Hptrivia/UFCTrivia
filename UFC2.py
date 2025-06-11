@@ -12,11 +12,7 @@ VOUCHER_FILE     = os.path.join(PERSISTENT_DIR, "vouchers.json")
 
 # ----------------- Load Questions -----------------
 theme_files = {
-    "Friends":  "FRIENDS.txt",
-    "Naruto":   "Naruto.txt",
-    "Avengers": "avengers.txt",
-    "The Office": "Office.txt",
-    "The Big Bang Theory": "TBBT.txt"
+    "Friends":  "FRIENDS.txt"
 }
 
 theme_questions = {
