@@ -10,7 +10,7 @@ app = FastAPI()
 
 # ─── Primary quiz at "/" ───────────────────────────────────
 primary = create_primary_app()
-mount_gradio_app(app, primary, path="/")
+mount_gradio_app(app, primary, path="/primary")
 
 # ─── TV quiz at "/tv" ─────────────────────────────────────
 tv = create_tv_app()
