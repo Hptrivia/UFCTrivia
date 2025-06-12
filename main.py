@@ -1,22 +1,27 @@
 # main.py
 import os
 from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 from gradio.routes import mount_gradio_app
 
-from tv_app      import create_tv_app
 from primary_app import create_primary_app
+from tv_app      import create_tv_app
 
 app = FastAPI()
 
-# 1) Mount the TV quiz under /tv first
-tv_demo = create_tv_app()
-mount_gradio_app(app, tv_demo, path="tv")
-
-# 2) Mount your primary quiz at the root path "/"
+# 1) Mount your primary quiz at "/primary"
 primary_demo = create_primary_app()
-mount_gradio_app(app, primary_demo, path="primary")
+mount_gradio_app(app, primary_demo, path="/primary")
 
-# 3) Uvicorn entrypoint
+# 2) Mount your TV quiz at "/tv"
+tv_demo = create_tv_app()
+mount_gradio_app(app, tv_demo, path="/tv")
+
+# 3) Redirect the root "/" to "/primary"
+@app.get("/")
+def _():
+    return RedirectResponse(url="/primary/")
+
 if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 7860))
