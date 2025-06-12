@@ -10,11 +10,11 @@ app = FastAPI()
 
 # 1) Mount the TV quiz under /tv first
 tv_demo = create_tv_app()
-mount_gradio_app(app, tv_demo, path="/tv")
+mount_gradio_app(app, tv_demo, path="tv")
 
 # 2) Mount your primary quiz at the root path "/"
 primary_demo = create_primary_app()
-mount_gradio_app(app, primary_demo, path="/")
+mount_gradio_app(app, primary_demo, path="primary")
 
 # 3) Uvicorn entrypoint
 if __name__ == "__main__":
